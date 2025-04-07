@@ -1,0 +1,427 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navigation{
+    position:sticky;
+    top:0;
+    background-color: white;
+   height: 12vh;
+}
+.container{
+    width: 88%;
+    margin: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+.container img{
+    padding-left: 39px;
+}
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0% 26px;
+}
+.container ul a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.Login{
+   background: green;
+ border: 1px solid green;
+ padding: 10px;
+ border-radius: 8px;
+}
+.Login a{
+    text-decoration: none;
+    color: white;
+}
+.Choose{
+    padding-left: 79%;
+   margin-top: -29px;
+   margin-right: 19px;
+}
+select{
+    width: 49%;
+   height: 30px;
+   border-radius: 8px;
+   padding-left: 29px;
+}
+.picture{
+ position: relative;
+ margin-left: 80%;
+ margin-top: -54px;
+}
+
+.change-picture{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    width: 73%;
+}
+.image{
+    margin-top: 159px;
+    width: 100%;
+    display: flex;
+    animation: slide 9s  ease-in-out infinite;
+    
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    33.33%{
+        transform: translateX(0);
+    }
+    66.66%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+.box{
+    border: 1px solid white;
+   border-radius: 100px;
+   width:39%;
+   height: 79px;
+   margin-left: 28%;
+   position: relative;
+   margin-top: -39px;
+   background-color: white;
+}
+.inner-box{
+    border: 1px  solid white;
+    border-radius: 32px;
+    width: 81%;
+    height: 49px;
+    margin-top: 19px;
+   margin-left: 39px;
+    background-color:  rgb(74, 169, 255);
+}
+.inner-box img{
+    margin-left: 85px;
+    margin-top: 12px;
+    position: relative;
+}
+.box-text{
+    margin-top: -49px;
+    font-size: 19px;
+    margin-left: 129px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lato",sans-serif;
+}
+.next-page{
+    background-color: rgba(255, 176, 219, .18);
+}
+.page-picure{
+  margin-left: 500px;
+  padding-top: 110px;
+}
+.text h1{
+    margin-top: -40%;
+    margin-left: 100px;
+}
+.picture-1{
+    margin-left: 99px;
+    margin-top:49px;
+}
+.picture-1 h4{
+    font-family:"Lato",sans-serif; 
+    margin-left: 79px;
+    margin-top: -39px;
+}
+.picture-2{
+    margin-top:59px;
+    margin-left: 99px;
+}
+.picture-2 h4{
+    font-family:"Lato",sans-serif; 
+    margin-left: 59px;
+    margin-top: -39px;
+}
+.picture-3{
+    margin-top: 79px;
+    margin-left: 99px;
+}
+.picture-3 h4{
+    font-family:"Lato",sans-serif; 
+    margin-left: 79px;
+    margin-top: -39px;
+}
+.picture-4{
+    margin-top: 59px;
+    margin-left: 99px;
+}
+.picture-4 h4{
+    font-family:"Lato",sans-serif; 
+    margin-left: 79px;
+    margin-top: -39px;
+}
+.response{
+    background-color: #f4f5f7;
+    height: 100vh;
+}
+.heading h1{
+    text-align: center;
+    font-size: 32px;
+    font-family:"Lato", sans-serif; 
+    padding-top: 109px;
+}
+.response-1{
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 23%;
+    height: 189px;
+    margin-left: 173px;
+    background-color: white;
+    margin-top: 69px;
+}
+.star-1{
+    padding-top: 19px;
+    margin-left: 59px;
+}
+.response-1 p{
+    margin-left: -49px;
+    padding-top: 9px;
+    font-family:"Lato", sans-serif; 
+}
+.picture1{
+    margin-top: 29px;
+    margin-left: 249px;
+}
+.picture1 h2{
+    margin-top: -3px;
+    font-size: 24px;
+    font-family:"Lato", sans-serif;
+}
+.response-2 {
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 25%;
+    height: 200px;
+    margin-left: 19%;
+    background-color: white;
+   margin-top: -336px;
+   margin-left: 37%;
+}
+.star-2{
+    padding-top: 19px;
+    margin-left: 59px;
+}
+.response-2 p{
+        padding-left: 12px;
+        padding-top: 9px;
+        font-family:"Lato", sans-serif; 
+}
+.picture2{
+    margin-top: 19px;
+    margin-left: 45%;
+}
+.picture2 h2{
+    margin-top: -3px;
+    font-size: 24px;
+    font-family:"Lato", sans-serif;
+}
+.response-3{
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 25%;
+    height: 188px;
+    margin-left: 62%;
+    background-color: white;
+    margin-top: -323px;
+}
+.star-3{
+    padding-top: 19px;
+    margin-left: 59px;
+}
+.response-3 p{
+    padding-left: 12px;
+    padding-top: 9px;
+    font-family:"Lato", sans-serif; 
+}
+.picture3{
+    margin-top: 29px;
+    margin-left: 73%;
+}
+.picture3 h2{
+    margin-top: -3px;
+    margin-left: -5px;
+    font-size: 24px;
+    font-family:"Lato", sans-serif;
+}
+.back{
+    margin-left: 99px;
+    font-family:"Lato", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    width: 9%;
+}
+.logo-1{
+    margin-left: 24%;
+   margin-top: -120px;
+}
+.logo-2{
+    margin-left: 44%;
+    margin-top: -95px;
+}
+.logo-3{
+    margin-left: 64%;
+    margin-top: -95px; 
+}
+.logo-4{
+    margin-left: 80%;
+    margin-top: -95px; 
+}
+.media{
+    margin-top: 59px;
+    background: #f4f5f7;
+    height: 100vh;
+}
+.media-coverages{
+    text-align: center;
+    padding-top: 29px;
+    font-size: 23px;
+    font-family:"Lato", sans-serif;
+}
+.coverage-1{
+    margin-left: 89px;
+}
+
+.coverage-1 p{
+    width: 24%;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.coverage-2{
+    margin-left: 37%;
+    margin-top: -319px;
+}
+.coverage-2 p{
+    width: 37%;
+    margin-left: 9px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+.coverage-3 img{
+    height: 250px;
+    width: 295px;
+}
+.coverage-3{
+    margin-left: 66%;
+    margin-top: -326px;
+}
+
+.coverage-3 p{
+    width: 69%;
+    margin-left: 9px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+.last-postion{
+    background-color: black;
+    height: 50ch;
+}
+.friend-logo img{
+    margin-top: 79px;
+    margin-left: 12%;
+}
+.home{
+    color: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-left: 12%;
+    margin-top: 29px;
+}
+.feature{
+    color: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-left: 19%;
+    margin-top: -34px;
+}
+.careers{
+    color: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-left: 26%;
+    margin-top: -35px;
+}
+.safety{
+    color: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-left: 33%;
+    margin-top: -35px;
+}
+.privacy{
+    color: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-left: 43%;
+    margin-top: -35px;
+}
+.term{
+    color: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-left: 54%;
+    margin-top: -34px;
+}
+.details a{
+    color: #f4f5f7;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    margin-left: 139px;
+}
+.details{
+   width: 29%;
+}
+.social-icons a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.social-icons{
+   padding-left: 81%;
+   margin-top: -67px;
+}
+.about-place{
+    color: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5px;
+}
+.sit-no{
+    padding-left: 73%;
+}
+.main-rd{
+    padding-left: 72%;
+}
+.Sector{
+   text-align: right;
+   padding-right: 152px;
+}
+.Bengaluru{
+    text-align: right;
+    padding-right: 152px;
+}
+.Karnataka{
+    text-align: right;
+    padding-right: 152px;
+}
+.number{
+    text-align: right;
+    padding-right: 152px; 
+}
+.company-title{
+    color: #606060; 
+    text-align: center;
+    margin-top: 39px;
+}
